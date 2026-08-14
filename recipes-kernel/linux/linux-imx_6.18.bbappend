@@ -3,9 +3,9 @@
 #
 
 # change the NXP repo with the System Electronics custom one
-LINUX_IMX_SRC = "git://github.com/System-Electronics/linux-imx-lf-6.6.52;protocol=https;branch=${SRCBRANCH}"
-SRCBRANCH = "main"
-SRCREV = "150ffc64090c41de59af3cc6a8713d37ea1fc191"
+LINUX_IMX_SRC = "git://github.com/isorochan/linux-imx.git;protocol=https;protocol=https;branch=${SRCBRANCH}"
+SRCBRANCH = "astrial-6.18"
+SRCREV = "92d9254e60312d8aa4d20307c4b0a54423135cfa"
 
 # set local version
 LOCALVERSION = "-sysele"
