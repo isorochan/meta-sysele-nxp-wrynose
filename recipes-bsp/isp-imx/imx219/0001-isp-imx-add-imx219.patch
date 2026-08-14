@@ -2,6 +2,7 @@ From d7462f03aab7355c02d4f29e4a2a2e0573ecee88 Mon Sep 17 00:00:00 2001
 From: Angelica Denaro <angelica.denaro@kalpa.it>
 Date: Mon, 26 Jan 2026 18:10:18 +0000
 Subject: [PATCH] isp imx add imx219
+Upstream-Status: Inappropriate [vendor-specific]
 
 ---
  .../sensor_dwe_imx219_1080P_config.json       |   35 +
