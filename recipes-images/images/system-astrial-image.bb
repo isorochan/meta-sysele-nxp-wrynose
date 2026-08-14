@@ -4,7 +4,7 @@
 
 require dynamic-layers/qt6-layer/recipes-fsl/images/imx-image-full.bb
 
-IMAGE_FEATURES:append = " debug-tweaks ssh-server-openssh package-management"
+IMAGE_FEATURES:append = " allow-root-login empty-root-password serial-autologin-root post-install-logging ssh-server-openssh package-management"
 
 ################################################################################################################
 ## as per NXP YOCTO user guide section 5.6.7
