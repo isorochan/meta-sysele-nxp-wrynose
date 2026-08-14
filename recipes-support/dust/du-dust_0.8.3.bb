@@ -9,7 +9,6 @@ inherit cargo
 # SRC_URI += "crate://crates.io/du-dust/0.8.3"
 SRC_URI += "git://github.com/bootandy/dust;protocol=https;nobranch=1"
 SRCREV = "c363e5ff8b7d141a7f93d059e1109f79778430eb"
-S = "${WORKDIR}/git"
 CARGO_SRC_DIR = ""
 
 
